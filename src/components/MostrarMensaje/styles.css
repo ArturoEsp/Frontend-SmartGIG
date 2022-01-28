@@ -1,0 +1,11 @@
+.c__mostrarMensaje {
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+.c__mostrarMensaje .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}

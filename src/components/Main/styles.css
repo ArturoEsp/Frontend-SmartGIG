@@ -1,0 +1,7 @@
+.c__main {
+    padding: 2rem 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 440px;
+    gap: 28px;
+}

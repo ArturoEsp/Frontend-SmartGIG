@@ -1,0 +1,47 @@
+.modal-MyAccount-overlay {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.modal-MyAccount-content {
+    margin: auto;
+    background: rgb(255, 255, 255);
+    width: 640px;
+    padding: 12px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.c__login .title {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--color-primary);
+    padding-bottom: 12px;
+}
+
+.c__login form {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.c__misMensajes .title{
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.c__misMensajes .wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-height: 420px;
+    overflow: auto;
+}
+
+.c__misMensajes .wrapper input {
+    width: 100%;
+}
+
+.c__misMensajes .close{
+    padding: 12px 0;
+}

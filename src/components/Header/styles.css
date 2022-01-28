@@ -1,0 +1,60 @@
+.c__header{ 
+    background-color: var(--color-primary);
+    height: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    padding: 18px 16px;
+}
+
+.c__header .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 9999;
+}
+
+.c__header .content .logo img {
+    width: 100%;
+}
+
+.c__header .content .logo {
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c__header .content .title {
+    width: 100%;
+    position: absolute;
+    z-index: -999;
+    
+}
+
+.c__header .content .title h2 {
+    font-size: 16px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+.c__header .content .login button {
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    font-size: 14px;
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: all .20s ease-in-out;
+}
+
+.c__header .content .login button:hover{
+    background-color: var(--color-secundary);
+    cursor: pointer;
+    
+}
